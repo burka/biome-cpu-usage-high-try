@@ -10,6 +10,9 @@
     ],
     "maxSize": 1073741824
   },
+  "vcs": {
+    "useIgnoreFile": false
+  },
   "formatter": {
     "useEditorconfig": true,
     "formatWithErrors": true
