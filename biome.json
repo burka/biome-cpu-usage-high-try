@@ -3,13 +3,7 @@
   "files": {
     "includes": ["**/*"],
     "maxSize": 1073741824,
-    "experimentalScannerIgnores": [
-      "playwright-report/trace/sw.bundle.js",
-      "playwright-report/trace/assets/codeMirrorModule-DECADVLv.js",
-      "playwright-report/trace/assets/defaultSettingsView-Cjl_e5YM.js",
-      "playwright-report/trace/sw.bundle.js",
-      "playwright-report/trace/index.BjQ9je-p.js"
-    ]
+    "experimentalScannerIgnores": ["playwright-report"]
   },
   "vcs": {
     "useIgnoreFile": false
