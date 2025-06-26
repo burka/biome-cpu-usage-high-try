@@ -106,7 +106,7 @@ test.describe("Biome.js Specific Validations", () => {
 		let previousLevel = 1;
 
 		for (const heading of headings) {
-			const level = parseInt(
+			const level = Number.parseInt(
 				await heading.evaluate((el) =>
 					el.tagName.toLowerCase().replace("h", ""),
 				),

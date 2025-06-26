@@ -39,7 +39,7 @@ test.describe("Biome.js API Integration", () => {
 
 	test("should handle rate limiting", async ({ request }) => {
 		// Make multiple rapid requests
-		const requests = Array(10)
+		const requests = new Array(10)
 			.fill(null)
 			.map(() => request.get("https://biomejs.dev/api/version"));
 

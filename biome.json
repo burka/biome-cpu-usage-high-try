@@ -1,9 +1,29 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true
+	"files": {
+		"includes": [
+			"**/*",
+			"playwright_report/**",
+			"**/*.html",
+			"**/*.md",
+			"**/*.xml"
+		],
+		"maxSize": 1073741824
+	},
+	"formatter": {
+		"useEditorconfig": true,
+		"formatWithErrors": true
+	},
+	"assist": {
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
+	},
+	"html": {
+		"formatter": {
+			"enabled": true
 		}
 	}
 }
