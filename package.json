@@ -8,7 +8,8 @@
     "lint": "biome lint",
     "check": "biome check",
     "ci": "biome ci",
-    "test": "playwright test"
+    "test": "playwright test",
+    "cpu-usage-high": "biome check --fix playwright-report/trace/sw.bundle.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.5",
