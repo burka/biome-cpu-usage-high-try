@@ -1,3 +1,11 @@
 # Biome High CPU Usage Try
 
-Trying to reproduce high cpu usage with biome - but for know it's still fast and I couldn't reproduce it.
+To reproduce high cpu usage with biome:
+
+`npm run cpu-usage-high`
+
+or
+
+`biome check --fix playwright-report/trace/sw.bundle.js`
+
+see [playwright-report/trace/sw.bundle.js](playwright-report/trace/sw.bundle.js) for the culprit
