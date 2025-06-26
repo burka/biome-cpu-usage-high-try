@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="12" failures="9" skipped="0" errors="0" time="22.645863">
-<testsuite name="documentation.spec.ts" timestamp="2025-06-26T12:56:07.543Z" hostname="chromium" tests="4" failures="3" skipped="0" time="37.388" errors="0">
-<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="11.759">
+<testsuites id="" name="" tests="12" failures="9" skipped="0" errors="0" time="22.107560000000003">
+<testsuite name="documentation.spec.ts" timestamp="2025-06-26T13:48:50.166Z" hostname="chromium" tests="4" failures="3" skipped="0" time="38.215" errors="0">
+<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="11.794">
 <failure message="documentation.spec.ts:8:3 should load documentation page" type="FAILURE">
 <![CDATA[  [chromium] › documentation.spec.ts:8:3 › Biome.js Documentation › should load documentation page ─
 
@@ -71,9 +71,9 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="2.451">
+<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="1.893">
 </testcase>
-<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="11.554">
+<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="11.751">
 <failure message="documentation.spec.ts:24:3 should have working pagination" type="FAILURE">
 <![CDATA[  [chromium] › documentation.spec.ts:24:3 › Biome.js Documentation › should have working pagination 
 
@@ -140,7 +140,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="11.624">
+<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="12.777">
 <failure message="documentation.spec.ts:38:3 should handle mobile responsive layout" type="FAILURE">
 <![CDATA[  [chromium] › documentation.spec.ts:38:3 › Biome.js Documentation › should handle mobile responsive layout 
 
@@ -208,8 +208,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="documentation.spec.ts" timestamp="2025-06-26T12:56:07.543Z" hostname="firefox" tests="4" failures="3" skipped="0" time="44.798" errors="0">
-<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="13.668">
+<testsuite name="documentation.spec.ts" timestamp="2025-06-26T13:48:50.166Z" hostname="firefox" tests="4" failures="3" skipped="0" time="49.97" errors="0">
+<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="13.926">
 <failure message="documentation.spec.ts:8:3 should load documentation page" type="FAILURE">
 <![CDATA[  [firefox] › documentation.spec.ts:8:3 › Biome.js Documentation › should load documentation page ──
 
@@ -246,7 +246,7 @@
     Call log:
       - Expect "toHaveTitle" with timeout 5000ms
       - waiting for locator(':root')
-        9 × locator resolved to <html lang="en" dir="ltr" data-has-hero="" data-theme="light" class="astro-zhibqghj">…</html>
+        8 × locator resolved to <html lang="en" dir="ltr" data-has-hero="" data-theme="light" class="astro-zhibqghj">…</html>
           - unexpected value "404 | Biome"
 
 
@@ -280,9 +280,9 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="3.004">
+<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="6.662">
 </testcase>
-<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="13.836">
+<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="14.795">
 <failure message="documentation.spec.ts:24:3 should have working pagination" type="FAILURE">
 <![CDATA[  [firefox] › documentation.spec.ts:24:3 › Biome.js Documentation › should have working pagination ─
 
@@ -349,7 +349,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="14.29">
+<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="14.587">
 <failure message="documentation.spec.ts:38:3 should handle mobile responsive layout" type="FAILURE">
 <![CDATA[  [firefox] › documentation.spec.ts:38:3 › Biome.js Documentation › should handle mobile responsive layout 
 
@@ -417,8 +417,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="documentation.spec.ts" timestamp="2025-06-26T12:56:07.543Z" hostname="webkit" tests="4" failures="3" skipped="0" time="45.604" errors="0">
-<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="13.194">
+<testsuite name="documentation.spec.ts" timestamp="2025-06-26T13:48:50.166Z" hostname="webkit" tests="4" failures="3" skipped="0" time="44.523" errors="0">
+<testcase name="Biome.js Documentation › should load documentation page" classname="documentation.spec.ts" time="13.302">
 <failure message="documentation.spec.ts:8:3 should load documentation page" type="FAILURE">
 <![CDATA[  [webkit] › documentation.spec.ts:8:3 › Biome.js Documentation › should load documentation page ───
 
@@ -489,9 +489,9 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="4.868">
+<testcase name="Biome.js Documentation › should navigate between documentation sections" classname="documentation.spec.ts" time="4.488">
 </testcase>
-<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="13.541">
+<testcase name="Biome.js Documentation › should have working pagination" classname="documentation.spec.ts" time="13.289">
 <failure message="documentation.spec.ts:24:3 should have working pagination" type="FAILURE">
 <![CDATA[  [webkit] › documentation.spec.ts:24:3 › Biome.js Documentation › should have working pagination ──
 
@@ -558,7 +558,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="14.001">
+<testcase name="Biome.js Documentation › should handle mobile responsive layout" classname="documentation.spec.ts" time="13.444">
 <failure message="documentation.spec.ts:38:3 should handle mobile responsive layout" type="FAILURE">
 <![CDATA[  [webkit] › documentation.spec.ts:38:3 › Biome.js Documentation › should handle mobile responsive layout 
 
