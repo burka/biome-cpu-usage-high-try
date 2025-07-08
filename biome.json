@@ -3,7 +3,7 @@
   "files": {
     "includes": ["**/*"],
     "maxSize": 1073741824,
-    "experimentalScannerIgnores": ["playwright-report"]
+    "experimentalScannerIgnores": ["playwright-report", "node_modules"]
   },
   "vcs": {
     "useIgnoreFile": false
