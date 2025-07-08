@@ -12,7 +12,7 @@
     "cpu-usage-high": "biome check --fix playwright-report/trace/sw.bundle.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.0.5",
+    "@biomejs/biome": "^2.0.6",
     "@playwright/test": "^1.53.1",
     "@types/node": "^24.0.4",
     "undici-types": "^7.8.0"
